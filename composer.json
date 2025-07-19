@@ -1,0 +1,20 @@
+{
+  "name": "satur.io/duckdb-clib-all",
+  "description": "C libraries for satur.io/duckdb - Linux AMD64",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Saturio\\DuckDB\\": "src/"
+    }
+  },
+  "provide": {
+    "satur.io/duckdb-clib": "1.3.2"
+  },
+  "authors": [
+    {
+      "name": "Daniel Hernández-Marín",
+      "email": "dani@satur.io"
+    }
+  ]
+}
