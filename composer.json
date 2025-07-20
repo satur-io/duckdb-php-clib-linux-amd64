@@ -9,6 +9,16 @@
   "provide": {
     "satur.io/duckdb-clib": "self.version"
   },
+  "replace": {
+    "satur.io/duckdb-clib-all": "*"
+  },
+  "conflict": {
+    "satur.io/duckdb-clib-linux-arm64" : "*",
+    "satur.io/duckdb-clib-windows-arm64" : "*",
+    "satur.io/duckdb-clib-windows-amd64" : "*",
+    "satur.io/duckdb-clib-osx-universal" : "*",
+    "satur.io/duckdb-clibno-lib" : "*"
+  },
   "authors": [
     {
       "name": "Daniel Hernández-Marín",
